@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #6c6b6b;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header {
+    width: 90%;
+    padding: 15px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+/* headerタグ内のheadlineクラスにのみ反映される */
+header .headline {
+    font-size: 32px;
+}
+.nav-list {
+    text-align: center;
+    padding: 15px 0;
+    margin: 0 auto;
+    border-bottom: 1px solid #848282;
+    border-top: 1px solid #848282;
+  }
+.nav-list-item {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.main {
+    width: 800px; /* 横幅 */
+    /* 中央寄せ（余白がないとできない） */
+    margin: 50px auto;
+}
+
+.box01 {
+    width: 200px;
+    height: 200px;
+    background-color: #e6ffe9;
+    float: left; /* 要素を左揃えで並べる */
+}
+.box02 {
+    width: 200px;
+    height: 200px;
+    background-color: #cbffd3;
+    float: left; /* 要素を左揃えで並べる */
+}
+.box03 {
+    width: 200px;
+    height: 200px;
+    background-color: #aeffbd;
+    float: left; /* 要素を左揃えで並べる */
+}
+.box04 {
+    width: 200px;
+    height: 200px;
+    background-color: #93ffab;
+    float: left; /* 要素を左揃えで並べる */
+}
+.box05 {
+    width: 200px;
+    height: 200px;
+    background-color: #f3ffd8;
+    float: left; /* 要素を左揃えで並べる */
+}
+.box06 {
+    width: 200px;
+    height: 200px;
+    background-color: #edffbe;
+    float: left; /* 要素を左揃えで並べる */
+}
+.box07 {
+    width: 200px;
+    height: 200px;
+    background-color: #e9ffa5;
+    float: left; /* 要素を左揃えで並べる */
+}
+.box08 {
+    width: 200px;
+    height: 200px;
+    background-color: #e4ff8d;
+    float: left; /* 要素を左揃えで並べる */
+}
+.box09 {
+    width: 200px;
+    height: 200px;
+    background-color: #d9e5ff;
+    float: left; /* 要素を左揃えで並べる */
+}
+.box10 {
+    width: 200px;
+    height: 200px;
+    background-color: #bad3ff;
+    float: left; /* 要素を左揃えで並べる */
+}
+.box11 {
+    width: 200px;
+    height: 200px;
+    background-color: #a4c6ff;
+    float: left; /* 要素を左揃えで並べる */
+}
+.box12 {
+    width: 200px;
+    height: 200px;
+    background-color: #8eb8ff;
+    float: left; /* 要素を左揃えで並べる */
+}
+
+footer {
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+    background-color: #848282;
+}
+.footer-text {
+    color: #fff;
+}
