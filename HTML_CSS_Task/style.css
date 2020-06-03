@@ -12,7 +12,7 @@
 
 main{
     width: 960px;
-    margin: 50px 50px;
+    margin: 50px auto;
 }
 
 .step-box{
@@ -60,4 +60,58 @@ main{
 
 .title{
     margin: 15px 0 5px;
+}
+
+@media screen and (max-width:768px) {
+    main {
+        width: 100%;
+        margin: 50px auto;
+    }
+
+    .step-box {
+        float: none;
+        width: 90%;
+        margin: 20px auto 0;
+    }
+
+    .step-box:last-child{
+        margin: 20px auto 0;
+    }
+
+    .step-img1{
+        width: 100%;
+        margin: 5px 0 0;
+        padding: 0 3px;
+    }
+
+    .step-img2{
+        width: 100%;
+        margin: 5px 0 0;
+        padding: 0 3px;
+    }
+
+    .step-img3{
+        width: 100%;
+        margin: 5px 0 0;
+        padding: 0 3px;
+    }
+
+    .step-num{
+        width: 50px;
+        margin: 0 auto;
+        padding: 3px 3px;
+    }
+
+    .title{
+        width: 100%;
+        margin: 10px auto 0;
+        padding: 0 3px;
+    }
+
+    .text{
+        width: 100%;
+        margin: 10px auto 0;
+        padding: 0 3px;
+    }
+
 }
